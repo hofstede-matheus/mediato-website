@@ -1,0 +1,101 @@
+body { 
+  margin: 0;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ff0074;
+  padding: 0px 20px 0px 20px;
+  height: 80px;
+  font-weight: 600;
+}
+
+.header-menu > a {
+  padding: 8px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  color: white;
+  text-decoration: none;
+}
+
+.header-menu > a:hover {
+  background-color: #bf0074;
+  color: white;
+}
+
+.hero-section {
+  color: azure;
+  display: flex;
+  justify-content: flex-start;
+  height: calc(100vh - 80px);
+  background-image: url("../assets/bg-code.jpg");
+  background-size: cover;
+}
+
+.cta-text {
+  display: flex;
+  flex-direction: column;
+  padding: 120px;
+  max-width: 50vw;
+  justify-content: center;
+}
+
+.cta-text > h1 {
+  margin: 20px;
+  font-size: 64px;
+}
+
+.cta-text > p {
+  border-left: 4px solid #ff0074;
+  margin: 20px;
+  padding-left: 12px;
+  font-size: 20px;
+}
+
+.cta-text > a {
+  border-radius: 4px;
+  text-align: center;
+  width: 260px;
+  background-color: #ff0074;
+  border-left: 4px solid #ff0074;
+  margin: 20px;
+  padding: 20px;
+  font-size: 20px;
+
+  
+  color: white;
+  text-decoration: none;
+}
+
+.services-section {
+  background-color: #080821;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: calc(100vh);
+}
+
+.services-title {
+  display: flex;
+  flex-direction: row;
+}
+
+.services-section h2 {
+  font-size: 48px;
+  text-align: center;
+  margin: 32px;
+}
+
+.rule-start {
+  margin: auto;
+  flex-grow: 4;
+}
+
+.rule-end {
+  margin: auto;
+  flex-grow: 0.5;
+}
