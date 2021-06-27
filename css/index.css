@@ -100,19 +100,19 @@ header {
 }
 
 .services-list {
-  margin: 0 200px 0 200px;
+  margin: 0 380px 0 380px;
 }
 
 .services-item {
   display: flex;
   flex-direction: row;
-  margin: 120px 0 120px 0;
+  margin: 140px 0 140px 0;
 }
 
 .services-item-reverse {
   display: flex;
   flex-direction: row-reverse;
-  margin: 120px 0 120px 0;
+  margin: 140px 0 140px 0;
 }
 
 .image-container {
@@ -129,7 +129,7 @@ header {
 
 .item-container {
   width: min-content;
-  flex-grow: 3;
+  flex-grow: 2;
   display: flex;
   flex-direction: column;
 }
