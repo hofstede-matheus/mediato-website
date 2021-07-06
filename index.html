@@ -15,19 +15,22 @@
 </head>
 <body>
   <header>
-    <a href="" class="header-logo">
-      <img width="216" height="74" src="./assets/logo.png" >
-    </a>
-    <div class="header-menu">
-      <a href="#home">Home</a>
-      <a href="#contact">Sobre</a>
-      <a href="#about">Contato</a>
+    <div class="header-container">
+      <a href="" class="header-logo">
+        <img width="212" height="49" src="./assets/logo.png" >
+      </a>
+      <div class="header-menu">
+        <a href="#home">Home</a>
+        <a href="#contact">Sobre</a>
+        <a href="#about">Contato</a>
+      </div>
     </div>
+    
   </header>
 
   <section class="hero-section">
     <div class="cta-text">
-      <h1>Nós fabricamos a sua aplicação!</h1>
+      <h1>Nós fabricamos a sua aplicação</h1>
       <p>Trazemos sua ideia à realidade através da tecnologia, através do desenvolvimento de soluções exclusivas.</p>
       <a href="#">Comece com a gente</a>
     </div>
@@ -56,7 +59,7 @@
       </div>
 
       <div class="services-item-reverse">
-        <div class="image-container">
+        <div class="image-container-reverse">
           <img height="160" width="160" src="./assets/browser-window.svg">
         </div>
         <div class="item-container">
@@ -77,6 +80,7 @@
     </div>
     
   </section>
+
 
   <section class="how-section">
     <div class="how-title">
@@ -138,6 +142,96 @@
     </div>
     
   </section>
+
+  <section class="tools-section">
+    <div class="tools-title">
+      <div class="rule-start">
+        <hr>
+      </div>
+      <h2>Nossas ferramentas</h2>
+      <div class="rule-end">
+        <hr>
+      </div>
+    </div>
+    <div class="tools-list">
+      <img class="tool-item" src="./assets/tools/node.svg" width="96" height="96"/>
+      <img class="tool-item" src="./assets/tools/ts.svg" width="96" height="96"/>
+      <img class="tool-item" src="./assets/tools/js.svg" width="96" height="96"/>
+      <img class="tool-item" src="./assets/tools/docker.svg" width="96" height="96"/>
+      <img class="tool-item" src="./assets/tools/postgre.svg" width="96" height="96"/>
+      <img class="tool-item" src="./assets/tools/mysql.svg" width="96" height="96"/>
+      <img class="tool-item" src="./assets/tools/redis.svg" width="96" height="96"/>
+      <img class="tool-item" src="./assets/tools/mongo.svg" width="96" height="96"/>
+      <img class="tool-item" src="./assets/tools/flutter.svg" width="96" height="96"/>
+      <img class="tool-item" src="./assets/tools/kotlin.svg" width="96" height="96"/>
+      <img class="tool-item" src="./assets/tools/react.svg" width="96" height="96"/>
+      <img class="tool-item" src="./assets/tools/ts.svg" width="96" height="96"/>
+      <img class="tool-item" src="./assets/tools/js.svg" width="96" height="96"/>
+      <img class="tool-item" src="./assets/tools/webpack.svg" width="96" height="96"/>
+
+    </div>
+
+
+  </section>
+
+  <section class="contact-section">
+    <div class="contact-container">
+      <div class="title-container">
+        <h3>Quer começar com a gente?</h3>
+      </div>
+      <div class="form-container">
+        <form>
+          <label for="name">Seu nome:</label>
+          <input type="text" name="name" id="name">
+
+          <label for="email">Seu e-mail:</label>
+          <input type="email" name="email" id="email">
+
+          <label for="phone">Seu telefone:</label>
+          <input type="tel" maxlength="11" name="phone" id="phone">
+
+          <label for="project_type">Que tipo de projeto você quer realizar?</label>
+          <select name="project_type" id="project_type">
+            <option value="app">Aplicação mobile</option>
+            <option value="website">Website institucional</option>
+            <option value="web_platadorm">Plataforma web</option>
+            <option value="audi">Audi</option>
+          </select>
+
+          <label for="project_budget">Quanto você deseja investir no seu projeto?</label>
+          <select name="project_budget" id="project_budget">
+            <option value="less_10k">Até 10 mil</option>
+            <option value="10k_to_20k">de 10 a 20 mil</option>
+            <option value="20k_to_30k">de 20 a 30 mil</option>
+            <option value="more_30k">Mais de 30 mil</option>
+          </select>
+
+          <label for="project_description">Conta mais sobre o seu projeto:</label>
+          <textarea name="project_description" id="project_description" spellcheck="false"></textarea>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-container">
+      <a href="" class="header-logo">
+        <img width="212" height="49" src="./assets/logo.png" >
+      </a>
+      <div class="social">
+        <a href="" class="header-logo">
+          <img width="32" height="32" src="./assets/social/whatsapp.svg" >
+        </a>
+        <a href="" class="header-logo">
+          <img width="32" height="32" src="./assets/social/instagram.svg" >
+        </a>
+
+      </div>
+
+    </div>
+
+  </footer>
   
 </body>
 </html>
