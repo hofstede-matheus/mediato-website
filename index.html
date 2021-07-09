@@ -36,6 +36,11 @@
         </svg>
       </a>
     </div>
+    <div id="header-menu-mobile" class="header-menu-mobile">
+      <a href="#home">Home</a>
+      <a href="#contact">Sobre</a>
+      <a href="#about">Contato</a>
+    </div>
 
   </header>
 
@@ -255,11 +260,11 @@
 
   <script>
     function toggleHamburger() {
-      var x = document.getElementById("header-menu");
-      if (x.className === "header-menu") {
-        x.className += "-responsive";
+      var x = document.getElementById("header-menu-mobile");
+      if (x.className === "header-menu-mobile") {
+        x.className += "-hidden";
       } else {
-        x.className = "header-menu";
+        x.className = "header-menu-mobile";
       }
     }
   </script>
