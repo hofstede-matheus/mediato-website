@@ -357,6 +357,30 @@ footer {
   margin: 20px;
 }
 
+.header-menu-mobile-hidden {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header-menu-mobile {
+  display: none;
+}
+
+.header-menu-mobile-hidden > a {
+  text-align: center;
+  padding: 8px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  color: white;
+  text-decoration: none;
+}
+
+.header-menu-mobile-hidden > a:hover {
+  background-color: #bf0074;
+  color: #080821;
+}
+
 
 @media (max-width: 768px) {
   .header-container {
@@ -482,9 +506,6 @@ footer {
     display: none;
   }
 
-  .header-menu-responsive {
-    display: block;
-  }
 
   .icon {
     display: initial;
