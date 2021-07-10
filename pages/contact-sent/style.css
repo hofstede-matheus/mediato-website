@@ -1,0 +1,14 @@
+body {
+  background-color: #0B0B2B;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  font-size: 32px;
+  min-height: 100vh;
+
+}
+
+body > p {
+  text-align: center;
+}
