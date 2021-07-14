@@ -7,12 +7,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-  <link href='./fonts/Montserrat.css' rel='stylesheet'>
+  <link
+    rel="preload"
+    as="style" 
+    href='./fonts/Montserrat.css'
+    onload="this.rel='stylesheet'"
+  >
 
   <link href='./css/index.css' rel='stylesheet'>
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
 
   <title>Mediato</title>
 </head>
@@ -24,9 +26,8 @@
         <img width="212" height="49" src="./assets/logo.png">
       </a>
       <div id="header-menu" class="header-menu">
-        <a href="#home">Home</a>
-        <a href="#contact">Sobre</a>
-        <a href="#about">Contato</a>
+        <a href="#services-section">Sobre</a>
+        <a href="#contact-section">Contato</a>
       </div>
       <a href="javascript:void(0);" class="icon" onclick="toggleHamburger()">
         <svg viewBox="0 0 100 80" width="40" height="40">
@@ -37,9 +38,8 @@
       </a>
     </div>
     <div id="header-menu-mobile" class="header-menu-mobile">
-      <a href="#home">Home</a>
-      <a href="#contact">Sobre</a>
-      <a href="#about">Contato</a>
+      <a href="#services-section">Sobre</a>
+      <a href="#contact-section">Contato</a>
     </div>
 
   </header>
@@ -48,11 +48,11 @@
     <div class="cta-text">
       <h1>Nós fabricamos a sua aplicação</h1>
       <p>Trazemos sua ideia à realidade através da tecnologia, através do desenvolvimento de soluções exclusivas.</p>
-      <a href="#">Comece com a gente</a>
+      <a href="#contact-section">Comece com a gente</a>
     </div>
   </section>
 
-  <section class="services-section">
+  <section id="services-section" class="services-section">
     <div class="services-title">
       <div class="rule-start">
         <hr>
@@ -197,7 +197,7 @@
 
   </section>
 
-  <section class="contact-section">
+  <section id="contact-section" class="contact-section">
     <div class="contact-container">
       <div class="title-container">
         <h3>Quer começar com a gente?</h3>
@@ -245,7 +245,7 @@
       <a href="" class="header-logo">
         <img width="212" height="49" src="./assets/logo.png">
       </a>
-      <div class="social">
+      <!-- <div class="social">
         <a href="" class="header-logo">
           <img width="32" height="32" src="./assets/social/whatsapp.svg">
         </a>
@@ -253,7 +253,7 @@
           <img width="32" height="32" src="./assets/social/instagram.svg">
         </a>
 
-      </div>
+      </div> -->
 
     </div>
 
