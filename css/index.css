@@ -408,7 +408,7 @@ footer {
     display: flex;
     justify-content: flex-start;
     min-height: calc(100vh - 80px);
-    background-image: url("../assets/bg-code.jpg");
+    background-image: url("../assets/bg-code-mobile.jpg");
     background-size: cover;
     width: 100vw;
   }
