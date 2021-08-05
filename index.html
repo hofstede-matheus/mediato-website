@@ -118,7 +118,6 @@
       <div class="how-steps-item">
         <div class="item-container">
           <div class="how-item-header">
-            <img alt="step1" height="80" width="80" src="./assets/big-cloud.svg">
             <p>1</p>
           </div>
           <h3 class="how-item-title">Reunião de alinhamento</h3>
@@ -130,7 +129,6 @@
       <div class="how-steps-item">
         <div class="item-container">
           <div class="how-item-header">
-            <img alt="step2" height="80" width="80" src="./assets/big-cloud.svg">
             <p>2</p>
           </div>
           <h3 class="how-item-title">Criação de design</h3>
@@ -142,7 +140,6 @@
       <div class="how-steps-item">
         <div class="item-container">
           <div class="how-item-header">
-            <img alt="step3" height="80" width="80" src="./assets/big-cloud.svg">
             <p>3</p>
           </div>
           <h3 class="how-item-title">Mão na massa</h3>
@@ -155,7 +152,6 @@
       <div class="how-steps-item">
         <div class="item-container">
           <div class="how-item-header">
-            <img alt="step4" height="80" width="80" src="./assets/big-cloud.svg">
             <p>4</p>
           </div>
           <h3 class="how-item-title">Validação e entrega</h3>
@@ -168,7 +164,7 @@
 
   </section>
 
-  <section class="tools-section">
+  <!-- <section class="tools-section">
     <div class="tools-title">
       <div class="rule-start">
         <hr>
@@ -193,7 +189,7 @@
     </div>
 
 
-  </section>
+  </section> -->
 
   <section id="contact-section" class="contact-section">
     <div class="contact-container">
@@ -203,13 +199,13 @@
       <div class="form-container">
         <form action="mailer/index.php" method="post">
           <label for="name">Seu nome:</label>
-          <input type="text" name="name" id="name">
+          <input class="form-container-input" type="text" name="name" id="name">
 
           <label for="email">Seu e-mail:</label>
-          <input type="email" name="email" id="email">
+          <input class="form-container-input" type="email" name="email" id="email">
 
           <label for="phone">Seu telefone:</label>
-          <input type="tel" maxlength="11" name="phone" id="phone">
+          <input class="form-container-input" type="tel" maxlength="11" name="phone" id="phone">
 
           <label for="project_type">Que tipo de projeto você quer realizar?</label>
           <select name="project_type" id="project_type">
@@ -229,9 +225,9 @@
           </select>
 
           <label for="project_description">Conta mais sobre o seu projeto:</label>
-          <textarea name="project_description" id="project_description" spellcheck="false"></textarea>
+          <textarea class="form-container-input" name="project_description" id="project_description" spellcheck="false"></textarea>
 
-          <input class="submit-contact" type="submit">
+          <input class="submit-contact" type="submit" value="Vamos lá!">
         </form>
       </div>
 
