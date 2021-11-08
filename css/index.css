@@ -129,6 +129,13 @@ header {
   flex-grow: 1;
 }
 
+.case-image-container {
+  display: flex;
+  align-items: center;
+  width: min-content;
+  flex-grow: 1;
+}
+
 .image-container-reverse {
   display: flex;
   align-items: center;
@@ -164,6 +171,51 @@ header {
   padding-left: 20px;
   font-size: 20px;
 }
+
+.cases-section {
+  background-color: #0B0B2B;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.cases-title {
+  display: flex;
+  flex-direction: row;
+}
+
+.cases-section h2 {
+  font-size: 56px;
+  text-align: center;
+  margin: 32px;
+}
+
+.cases-list {
+  margin: 0 200px 0 200px;
+}
+
+.cases-item {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 80px 0 80px 0;
+}
+
+.cases-item-description {
+  border-left: 4px solid #ff0074;
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+.cases-item-container {
+  flex-grow: 4;
+  display: flex;
+  flex-direction: column;
+}
+
 
 .how-section {
   background-color: #0b0b2b;
@@ -449,7 +501,11 @@ footer {
   }
 
   .services-list {
-    margin: 8px
+    margin: 8px;
+  }
+
+  .cases-list {
+    margin: 56px;
   }
 
   .services-item {
@@ -484,6 +540,20 @@ footer {
     flex-grow: 4;
     display: flex;
     flex-direction: column;
+  }
+
+  .cases-section h2 {
+    font-size: 36px;
+    text-align: center;
+    margin: 32px;
+  }
+
+  .cases-item {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0 0px 0;
   }
 
   .how-section h2 {
