@@ -24,6 +24,12 @@
   <link href='./css/index.css' rel='stylesheet'>
 
   <title>Mediato Tecnologia - Desenvolvimento de Produtos Digitais</title>
+  <script src="https://www.google.com/recaptcha/api.js"></script>
+  <script>
+    function onSubmit(token) {
+      document.getElementById("contact-form").submit();
+    }
+  </script>
 </head>
 
 <body>
@@ -231,7 +237,7 @@
         <h3>Quer começar com a gente?</h3>
       </div>
       <div class="form-container">
-        <form action="mailer/index.php" method="post">
+        <form id="contact-form" action="mailer/index.php" method="post">
           <label for="name">Seu nome:</label>
           <input class="form-container-input" type="text" name="name" id="name">
 
@@ -262,7 +268,8 @@
           <textarea class="form-container-input" name="project_description" id="project_description"
             spellcheck="false"></textarea>
 
-          <input class="submit-contact" type="submit" value="Vamos lá!">
+          <input class="submit-contact g-recaptcha" type="submit" value="Vamos lá!"
+            data-sitekey="6LdvzoUiAAAAAPeWMJE7sxZ9J7f-HGFKrZCbsxWG" data-callback='onSubmit' data-action='submit'>
         </form>
       </div>
 
